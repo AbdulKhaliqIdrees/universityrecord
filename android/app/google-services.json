@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559785089602",
+    "project_id": "universityrecord-e4e06",
+    "storage_bucket": "universityrecord-e4e06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559785089602:android:8d009efa47796c66daabdb",
+        "android_client_info": {
+          "package_name": "com.example.universityrecord"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559785089602-tr4d3fvs49f2r9q7v40t2pmsmtaj8od6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuy8qyc449haxHcrlfkVYYzz4DvoFmcKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559785089602-tr4d3fvs49f2r9q7v40t2pmsmtaj8od6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
