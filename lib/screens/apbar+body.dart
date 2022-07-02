@@ -16,7 +16,7 @@ class _ApBarState extends State<ApBar> {
   TextEditingController degree = TextEditingController();
   TextEditingController section = TextEditingController();
   final firestore = FirebaseFirestore.instance;
-  Create() async {
+  create() async {
     try {
       await firestore.collection("Class").doc(rollno.text).set({
         "Name": name.text,
@@ -70,7 +70,7 @@ class _ApBarState extends State<ApBar> {
                 children: [
                   MaterialButton(
                     onPressed: () {
-                      Create();
+                      create();
                       name.clear();
                       rollno.clear();
                       degree.clear();
